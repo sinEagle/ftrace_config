@@ -7,7 +7,7 @@ echo 1 > /sys/kernel/tracing/options/funcgraph-abstime
 echo 1 > /sys/kernel/tracing/options/funcgraph-cpu
 echo 1 > /sys/kernel/tracing/options/funcgraph-proc
 echo 1 > /sys/kernel/tracing/options/function-fork
-echo 1 > /sys/kernel/tracing/options/function-tail
+echo 1 > /sys/kernel/tracing/options/funcgraph-tail
 echo 1 > /sys/kernel/tracing/options/event-fork
 echo function_graph > /sys/kernel/tracing/current_tracer
 echo 1 > /sys/kernel/tracing/events/syscalls/enable
