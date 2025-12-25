@@ -20,4 +20,5 @@ echo 1 > /sys/kernel/tracing/events/sched/sched_switch/enable
 echo 1 > /sys/kernel/tracing/events/sched/sched_process_wait/enable
 echo 1 > /sys/kernel/tracing/events/sched/sched_process_fork/enable
 echo 1 > /sys/kernel/tracing/events/sched/sched_process_exec/enable
-
+echo 0 > /sys/kernel/tracing/tracing_on
+echo > /sys/kernel/tracing/trace
